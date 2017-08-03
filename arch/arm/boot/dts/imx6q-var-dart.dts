@@ -17,8 +17,6 @@
 
 #include "imx6q.dtsi"
 #include "imx6qdl-var-dart.dtsi"
-#include "imx6qdl-var-solocb-dt6cb-displays.dtsi"
-#include "imx6qdl-var-dt6cb-buttons.dtsi"
 
 / {
 	model = "Variscite i.MX6 QUAD VAR-DART Smart Device Board";
@@ -147,10 +145,11 @@
 		};
 	};
 };
-
+/*
 &touch {
 	interrupt-parent = <&gpio1>;
 	interrupts = <4 0>;
+	focaltech,irq-gpio = <&gpio1 4 0x00>;
 };
 
 &mxcfb1 {
@@ -168,7 +167,7 @@
 &mxcfb4 {
 	status = "okay";
 };
-
+*/
 &sata {
 	status = "disabled";
 };
