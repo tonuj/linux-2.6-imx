@@ -402,7 +402,8 @@
 
 		pinctrl_pwm1_1: pwm1grp {
 			fsl,pins = <
-				MX6QDL_PAD_DISP0_DAT9__PWM2_OUT		0x1b0b1
+				/* MX6QDL_PAD_DISP0_DAT9__PWM2_OUT		0x1b0b1 */
+                                MX6QDL_PAD_GPIO_1__PWM2_OUT 0x1b0b1
 			>;
 		};
 
