@@ -155,7 +155,7 @@
 					status = "disabled";
 				};
 			};
-
+/*
 			iomuxc: iomuxc@020e0000 {
 				compatible = "fsl,imx6q-iomuxc";
 
@@ -195,6 +195,7 @@
 					};
 				};
 			};
+*/
 		};
 
 		aips-bus@02100000 { /* AIPS2 */
