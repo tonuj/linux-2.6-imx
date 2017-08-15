@@ -292,14 +292,7 @@
 		AVDD-supply = <&reg_audio>;
 		DRVDD-supply = <&reg_audio>;
 		gpio-reset = <&gpio4 5 1>;
-		gpio-cfg = <
-			0x0000 /* 0:Default */
-			0x0000 /* 1:Default */
-			0x0013 /* 2:FN_DMICCLK */
-			0x0000 /* 3:Default */
-			0x8014 /* 4:FN_DMICCDAT */
-			0x0000 /* 5:Default */
-		>;
+                ai3x-gpio-func = <0xa 0x5 0x2 0x0 0x0>;
 	};
 };
 
