@@ -349,12 +349,14 @@
 				/* Camera Clock */
 				MX6QDL_PAD_GPIO_3__CCM_CLKO2		0x130b0
 
-                                MX6QDL_PAD_GPIO_7__GPIO1_IO07           0x80000000 //GPIO_IN_FLIRCAM_ON
-                                MX6QDL_PAD_KEY_ROW2__GPIO4_IO11         0x80000000 //GPIO_OUT_MIPICAM_PWR
+                                MX6QDL_PAD_KEY_COL4__GPIO4_IO14         0x80000000 //GPIO_IN_FLIRCAM_ON
+                                MX6QDL_PAD_KEY_ROW4__GPIO4_IO15         0x80000000 //GPIO_OUT_MIPICAM_PWR
                                 MX6QDL_PAD_RGMII_TXC__GPIO6_IO19        0x80000000 //GPIO_OUT_ACAM_PWR
                                 MX6QDL_PAD_RGMII_TX_CTL__GPIO6_IO26     0x80000000 //GPIO_IN_ACAM_ON
                                 MX6QDL_PAD_RGMII_TD0__GPIO6_IO20        0x80000000 //GPIO_OUT_ACAM_RST
-                                MX6QDL_PAD_DISP0_DAT0__GPIO4_IO21       0x80000000 //GPIO_OUT_IR_LED
+                                MX6QDL_PAD_GPIO_1__GPIO1_IO01           0x80000000 //GPIO_OUT_IR_LED
+                                MX6QDL_PAD_DISP0_DAT0__GPIO4_IO21       0x80000000 //GPIO_OUT_GSM_DTR
+                                MX6QDL_PAD_DISP0_DAT10__GPIO4_IO31      0x80000000 //GPIO_IN_GSM_CTS
                                 MX6QDL_PAD_DISP0_DAT1__GPIO4_IO22       0x80000000 //GPIO_OUT_REC_EN
                                 MX6QDL_PAD_DISP0_DAT2__GPIO4_IO23       0x80000000 //GPIO_OUT_REC_LED
                                 MX6QDL_PAD_DI0_DISP_CLK__GPIO4_IO16     0x80000000 //GPIO_OUT_GSM_ONOFF
